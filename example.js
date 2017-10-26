@@ -1,0 +1,25 @@
+- create a shoot() function that takes a set of coordindates. This also checks if the coordinates were shot at already
+- create a random() function that randomly generates a set of coordinates
+- shoot(At Random Coordinates)
+  - Store referencePoint and set to 0
+  - Create a shooting function called  that takes a referencePoint
+    - if referencePoint = 0, then
+      - shoot(at coordinate(x + 1, y))
+    - else if referencePoint = 1, then
+      - shoot(at coordinate(x, y - 1))
+    - else if referencePoint = 2, then
+      - shoot(at coordinate(x - 1, y))
+    - else if referencePoint = 3, then
+      - shoot(at coordinate(x, y + 1))
+    - else if referencePoint = 4, then
+      - shoot(at coordinate(x + 2, y))
+    - else if referencePoint = 5, then
+      - shoot(at coordinate(x, y - 2))
+    - else if referencePoint = 6, then
+      - shoot(at coordinate(x - 2, y))
+    - else if referencePoint = 7, then
+      - shoot(at coordinate(x, y - 2))
+
+  - If Point Was Hit, then
+    - Store Coordinates of Hit in hitCoordinates = x,y
+    -
